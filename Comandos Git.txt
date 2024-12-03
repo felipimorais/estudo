@@ -1,0 +1,50 @@
+iniciar git em uma pastas = git init
+
+ver se já existe um git = git status
+
+
+
+BRANCH
+Branch é a versão do projeto que esta sendo trabalho ex"Master" pode ter outros nomes referenciando outras versões do projeto. ex"Teste","Final"...
+
+visualisar branch = git branch
+
+create branch = git branch NOMEDABRANCH	
+
+trocar de branch = git switch NOMEDABRANCH
+
+Quando cria uma nova Branch ela cria igualmente a branch atual que esta sendo usada, sendo assim sempre validar se a que esta sendo usada é a versão final.
+
+deletar branch = git branch -d NOMEDABRANCH
+
+
+ACHIVES AND COMMIT
+add archives = git add .
+
+add commited (check point) = git commit -m "DESCRIÇÃO DO QUE FOI ALTERADO EX. ADD CCS DEFALT AND CREATED HOME PAGE" 
+
+visualisar chack points =  git log
+visualiser de forma mais limpa = git log --oneline
+
+torocar mensagem do commit = git commit --amend -m "MENSAGEM"
+
+visualizar mudanças entre commits = git diff IDCOMMIT IDCOMMIT
+
+
+
+MERGE
+Merge = Juntar as branch corrigidas/desenvolvidas com a Branch master/final
+
+dever trocar para brench master/final para fazer fazer merge 
+
+merge = git merge NOMEDABRANCH
+
+
+
+RESTAURAR COMMIT
+reverter mantendo o historico = git revert IDCOMMIT --no-edit
+
+reverter apagando o historico = git reset IDCOMMIT 
+
+ao usar RESET ou se quiser IGNORAR as alterações usa = git stash 
+

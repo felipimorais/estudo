@@ -1,0 +1,7 @@
+Apos intalado verificar versão = gh --version
+
+Clonar repositprio remoto (github) = git clone COLARLINKDAPASTAGITHUB
+
+Fazer login na platarforma = gh auth login
+
+Enviar arquivos para nuvem (github) = git push origin 
