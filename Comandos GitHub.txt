@@ -1,7 +1,15 @@
 Apos intalado verificar versão = gh --version
 
-Clonar repositprio remoto (github) = git clone COLARLINKDAPASTAGITHUB
+Clonar repositorio remoto (github) = git clone COLARLINKDAPASTAGITHUB
 
 Fazer login na platarforma = gh auth login
 
 Enviar arquivos para nuvem (github) = git push origin 
+
+Atualizar repositorio local = git pull
+
+Clonar repositorio porem criando nova pasta (ex outro funcionário/pc) = git clone COLARLINKDAPASTAGITHUB NOMEDAPASTA 
+
+
+CRIAR BRACH
+Criamos a brach local contudo para subir ela para o gihup precisamos primeiro voltar para branch principal, apos isso podemos atualizar o repositorio remoto usando = git push origin NOMEDABRANCHCRIADA

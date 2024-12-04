@@ -48,3 +48,13 @@ reverter apagando o historico = git reset IDCOMMIT
 
 ao usar RESET ou se quiser IGNORAR as alterações usa = git stash 
 
+
+
+CRIAR TAGS (IDENTIFICAR COMMITS)
+
+listar tags = git tag --list 
+
+criar tags = git tag NOMEDATAG CODCOMMIT
+
+
+
